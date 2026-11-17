@@ -1,0 +1,588 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2512                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      setFieldsDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+defaultFieldValues
+(
+    volScalarFieldValue alpha.water 0
+    volVectorFieldValue U (0 0 0)
+);
+
+regions
+(
+    cylinderToCell
+    {
+        p1              (0 0 0.000000);
+        p2              (0 0 -0.002592);
+        radius          0.003923;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.582261)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.002592);
+        p2              (0 0 -0.005184);
+        radius          0.003788;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.624406)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.005184);
+        p2              (0 0 -0.007776);
+        radius          0.003674;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.663881)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.007776);
+        p2              (0 0 -0.010368);
+        radius          0.003575;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.701137)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.010368);
+        p2              (0 0 -0.012960);
+        radius          0.003488;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.736510)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.012960);
+        p2              (0 0 -0.015552);
+        radius          0.003411;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.770261)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.015552);
+        p2              (0 0 -0.018144);
+        radius          0.003341;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.802594)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.018144);
+        p2              (0 0 -0.020736);
+        radius          0.003278;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.833674)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.020736);
+        p2              (0 0 -0.023328);
+        radius          0.003221;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.863636)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.023328);
+        p2              (0 0 -0.025920);
+        radius          0.003168;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.892593)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.025920);
+        p2              (0 0 -0.028512);
+        radius          0.003120;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.920640)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.028512);
+        p2              (0 0 -0.031104);
+        radius          0.003075;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.947857)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.031104);
+        p2              (0 0 -0.033696);
+        radius          0.003033;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -0.974314)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.033696);
+        p2              (0 0 -0.036288);
+        radius          0.002993;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.000072)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.036288);
+        p2              (0 0 -0.038880);
+        radius          0.002956;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.025182)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.038880);
+        p2              (0 0 -0.041472);
+        radius          0.002922;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.049692)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.041472);
+        p2              (0 0 -0.044064);
+        radius          0.002889;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.073642)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.044064);
+        p2              (0 0 -0.046656);
+        radius          0.002858;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.097070)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.046656);
+        p2              (0 0 -0.049248);
+        radius          0.002828;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.120008)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.049248);
+        p2              (0 0 -0.051840);
+        radius          0.002800;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.142486)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.051840);
+        p2              (0 0 -0.054432);
+        radius          0.002774;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.164529)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.054432);
+        p2              (0 0 -0.057024);
+        radius          0.002748;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.186163)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.057024);
+        p2              (0 0 -0.059616);
+        radius          0.002724;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.207410)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.059616);
+        p2              (0 0 -0.062208);
+        radius          0.002701;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.228289)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.062208);
+        p2              (0 0 -0.064800);
+        radius          0.002679;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.248819)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.064800);
+        p2              (0 0 -0.067392);
+        radius          0.002657;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.269017)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.067392);
+        p2              (0 0 -0.069984);
+        radius          0.002637;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.288898)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.069984);
+        p2              (0 0 -0.072576);
+        radius          0.002617;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.308478)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.072576);
+        p2              (0 0 -0.075168);
+        radius          0.002598;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.327768)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.075168);
+        p2              (0 0 -0.077760);
+        radius          0.002579;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.346783)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.077760);
+        p2              (0 0 -0.080352);
+        radius          0.002562;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.365532)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.080352);
+        p2              (0 0 -0.082944);
+        radius          0.002544;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.384028)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.082944);
+        p2              (0 0 -0.085536);
+        radius          0.002528;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.402280)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.085536);
+        p2              (0 0 -0.088128);
+        radius          0.002512;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.420297)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.088128);
+        p2              (0 0 -0.090720);
+        radius          0.002496;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.438089)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.090720);
+        p2              (0 0 -0.093312);
+        radius          0.002481;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.455663)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.093312);
+        p2              (0 0 -0.095904);
+        radius          0.002466;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.473027)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.095904);
+        p2              (0 0 -0.098496);
+        radius          0.002452;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.490189)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.098496);
+        p2              (0 0 -0.101088);
+        radius          0.002438;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.507156)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.101088);
+        p2              (0 0 -0.103680);
+        radius          0.002425;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.523934)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.103680);
+        p2              (0 0 -0.106272);
+        radius          0.002412;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.540529)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.106272);
+        p2              (0 0 -0.108864);
+        radius          0.002399;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.556947)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.108864);
+        p2              (0 0 -0.111456);
+        radius          0.002387;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.573194)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.111456);
+        p2              (0 0 -0.114048);
+        radius          0.002374;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.589275)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.114048);
+        p2              (0 0 -0.116640);
+        radius          0.002363;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.605194)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.116640);
+        p2              (0 0 -0.119232);
+        radius          0.002351;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.620958)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.119232);
+        p2              (0 0 -0.121824);
+        radius          0.002340;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.636569)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.121824);
+        p2              (0 0 -0.124416);
+        radius          0.002329;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.652033)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.124416);
+        p2              (0 0 -0.127008);
+        radius          0.002318;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.667354)
+        );
+    }
+    cylinderToCell
+    {
+        p1              (0 0 -0.127008);
+        p2              (0 0 -0.129600);
+        radius          0.002308;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 -1.682535)
+        );
+    }
+    // Initial water pool sitting inside the exact equal-diameter vial
+    cylinderToCell
+    {
+        p1              (0 0 -0.129600);
+        p2              (0 0 -0.229600);
+        radius          0.004000;
+        fieldValues
+        (
+            volScalarFieldValue alpha.water 1
+            volVectorFieldValue U (0 0 0)
+        );
+    }
+);

@@ -1,0 +1,5 @@
+﻿
+# Large simulation files stored separately on Google Drive
+/Sim_Case3_2.tar.gz
+/Sim_Case3_1.tar.gz
+/Sim_Case2_1/VTK/Sim_0/internal.vtu
